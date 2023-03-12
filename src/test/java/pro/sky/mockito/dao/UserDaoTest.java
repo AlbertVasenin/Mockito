@@ -14,7 +14,6 @@ import pro.sky.mockito.model.User;
 
 @ExtendWith(MockitoExtension.class)
 public class UserDaoTest {
-
   private static User user;
   private static final UserDaoImpl out = mock(UserDaoImpl.class);
 
