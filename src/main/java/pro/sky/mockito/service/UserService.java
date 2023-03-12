@@ -15,4 +15,5 @@ public class UserService {
     User userByName = userDao.getUserByName(user.getName());
     return userByName != null;
   }
+
 }

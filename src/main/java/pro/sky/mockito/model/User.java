@@ -25,7 +25,6 @@ public class User {
     User user = (User) o;
     return Objects.equals(name, user.name);
   }
-
   @Override
   public int hashCode() {
     return Objects.hash(name);

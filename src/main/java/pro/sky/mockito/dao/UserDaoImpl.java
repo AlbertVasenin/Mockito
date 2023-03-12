@@ -15,11 +15,9 @@ public class UserDaoImpl {
     userList.add(new User("Sergey"));
   }
 
-
   public User getUserByName(String name) {
     return userList.stream().filter(o -> o.getName().equals(name)).findFirst().orElse(null);
   }
-
 
   public List<User> findAllUsers() {
     return userList;
